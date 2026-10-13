@@ -1,0 +1,28 @@
+import time
+
+print("Iniciando carregamento...")
+
+time.sleep(1)
+print(".")
+time.sleep(1)
+print(".")
+time.sleep(1)
+print(".")
+time.sleep(1)
+print(".")
+time.sleep(1)
+print(".")
+time.sleep(1)
+print(".")
+time.sleep(1)
+print(".")
+time.sleep(1)
+print(".")
+time.sleep(1)
+print(".")
+time.sleep(1)
+print(".")
+time.sleep(5)
+print(".")
+
+print("Carregamento finalizado")
