@@ -1,7 +1,7 @@
-let escada = ""; 
+let escada = "";
 
 for (let i = 1; i <= 5; i++) {
-    escada = escada + "🧱"; 
+    escada = escada + "🧱";
     console.log(escada);
 }
 

@@ -11,7 +11,7 @@ const nota2 = 7.0;
 const nota3 = 1.0;
 
 //Provcessamento de Dados
-const media = (nota1 + nota2 + nota3) /3
+const media = (nota1 + nota2 + nota3) / 3
 
 //Saída de Dados
 console.log("=================")
