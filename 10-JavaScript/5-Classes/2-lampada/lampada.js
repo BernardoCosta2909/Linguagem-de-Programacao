@@ -5,7 +5,7 @@ class Lampada {
     }
 
     ligar() {
-        if(this.ligada === true) {
+        if(this.ligada) {
             console.log("A luz da", this.comodo, "já está ligada.\n")
         } else {
             this.ligada = true;
@@ -14,7 +14,7 @@ class Lampada {
     }
 
     desligar() {
-        if(this.ligada === false) {
+        if(!this.ligada) {
             console.log("A luz da", this.comodo, "já está desligada.\n")
         } else {
             this.ligada = false;
@@ -23,7 +23,7 @@ class Lampada {
     }
 
     alternar () {
-        if(this.ligada === true) {
+        if(this.ligada) {
             this.desligar()
         } else {
             this.ligar()
