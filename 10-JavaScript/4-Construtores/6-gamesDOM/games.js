@@ -1,14 +1,11 @@
 const nomeAna = document.getElementById("nome-ana");
 const pontosAna = document.getElementById("pontos-ana");
-const botaoAna = document.getElementById("botao-ana");
 
 const nomeBeto = document.getElementById("nome-beto");
 const pontosBeto = document.getElementById("pontos-beto");
-const botaoBeto = document.getElementById("botao-beto");
 
 const nomeBernardo = document.getElementById("nome-bernardo");
 const pontosBernardo = document.getElementById("pontos-bernardo");
-const botaoBernardo = document.getElementById("botao-bernardo");
 
 function Jogador(nome, id) {
     this.nome = nome,
@@ -30,4 +27,18 @@ function Jogador(nome, id) {
     }
 }
 
-const ana = new 
+const ana = new Jogador.atualizarTela("Ana")
+const beto = new Jogador.atualizarTela("Beto")
+const bernardo = new Jogador.atualizarTela("Bernardo")
+
+document.getElementById("botao-ana").addEventListener("click", function () {
+  ana.marcar();
+});
+
+document.getElementById("botao-beto").addEventListener("click", function () {
+  beto.marcar();
+});
+
+document.getElementById("botao-bernardo").addEventListener("click", function () {
+  bernardo.marcar();
+});
